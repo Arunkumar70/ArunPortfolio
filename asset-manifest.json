@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/ArunPortfolio/static/css/main.49fd4109.css",
+    "main.js": "/ArunPortfolio/static/js/main.8b547412.js",
+    "static/js/453.174ef4bc.chunk.js": "/ArunPortfolio/static/js/453.174ef4bc.chunk.js",
+    "static/media/pj7.png": "/ArunPortfolio/static/media/pj7.2909b2201e1ceb26a784.png",
+    "static/media/Pj3.png": "/ArunPortfolio/static/media/Pj3.577c34f0a99cf51ab50b.png",
+    "static/media/Arun.jpg": "/ArunPortfolio/static/media/Arun.d6ef6cd6fbd6a2fe9e6c.jpg",
+    "static/media/PJ4.png": "/ArunPortfolio/static/media/PJ4.51b732f619c8d52cd5f0.png",
+    "static/media/pj5.png": "/ArunPortfolio/static/media/pj5.6eb4cde17a758ad452b2.png",
+    "static/media/pj8.png": "/ArunPortfolio/static/media/pj8.c81d4d8a424f3435cee8.png",
+    "static/media/pj6.png": "/ArunPortfolio/static/media/pj6.7147d82c371e8e974bd7.png",
+    "static/media/pj9.png": "/ArunPortfolio/static/media/pj9.5f7fcf479fbbf8c7fc89.png",
+    "static/media/pj2.JPG": "/ArunPortfolio/static/media/pj2.6f6f1c89f410026af109.JPG",
+    "static/media/pj1.JPG": "/ArunPortfolio/static/media/pj1.1f19fae9f73e672d833a.JPG",
+    "static/media/pj10.png": "/ArunPortfolio/static/media/pj10.dd26e39edf203a8ee299.png",
+    "index.html": "/ArunPortfolio/index.html",
+    "main.49fd4109.css.map": "/ArunPortfolio/static/css/main.49fd4109.css.map",
+    "main.8b547412.js.map": "/ArunPortfolio/static/js/main.8b547412.js.map",
+    "453.174ef4bc.chunk.js.map": "/ArunPortfolio/static/js/453.174ef4bc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49fd4109.css",
+    "static/js/main.8b547412.js"
+  ]
+}
