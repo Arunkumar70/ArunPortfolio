@@ -21,3 +21,14 @@
   
 }
 
+.cardWidth{
+  width: 30rem;
+}
+
+@media (max-width: 520px){
+  .cardWidth{
+    width: 20rem;
+  }
+  
+}
+

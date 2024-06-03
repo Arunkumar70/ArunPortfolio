@@ -27,11 +27,11 @@ function Projects() {
         <div id="carouselExample" className="carousel slide">
             <div className="carousel-inner">
                 <div className="carousel-item active" style={{marginTop:'100px', marginBottom:'150px'}}>    
-                    <div className="container  d-flex ">
+                    <div className="container-lg   ">
                         <div className=" d-flex align-items-center justify-content-center " >
                             <div className=" d-flex  align-items-center justify-content-center ">
 
-                                <div class="card shadow-lg m-5"  style={{width:"30%" , height:'30%'}}>
+                                <div class="card shadow-lg cardWidth "  style={{ height:'30%'}} >
                                     <img src={project1} class="card-img-top" alt="..." style={{width:'100%' , height:'450px'}}/>
                                         <div class="card-body">
                                             <h5 class="card-title">Vodafone 5G Reality Experience </h5>
@@ -40,7 +40,19 @@ function Projects() {
                                         </div>            
                                 </div>
 
-                                <div class="card shadow-lg m-5"  style={{width:"30%" , height:'30%'}}>
+                            </div>     
+                        </div>
+                    </div>
+
+                </div>
+
+                <div className="carousel-item " style={{marginTop:'100px', marginBottom:'150px'}}>    
+                    <div className="container-lg ">
+                        <div className=" d-flex align-items-center justify-content-center " >
+                            <div className=" d-flex  align-items-center justify-content-center ">
+
+
+                                <div class="card shadow-lg cardWidth m-5"  style={{ height:'30%'}}>
                                     <img src={project2} class="card-img-top" alt="..." style={{width:'100%' , height:'450px'}}/>
                                         <div class="card-body">
                                             <h5 class="card-title">Eviden Metaverse Accelerator</h5>
@@ -56,11 +68,11 @@ function Projects() {
                 </div>
 
                 <div className="carousel-item " style={{marginTop:'100px', marginBottom:'150px'}}>    
-                    <div className="container  d-flex ">
+                    <div className="container-lg ">
                         <div className=" d-flex align-items-center justify-content-center " >
                             <div className=" d-flex  align-items-center justify-content-center ">
 
-                                <div class="card shadow-lg m-5"  style={{width:"30%" , height:'30%'}}>
+                                <div class="card shadow-lg cardWidth m-5"  style={{ height:'30%'}}>
                                     <img src={project3} class="card-img-top" alt="..." style={{width:'100%' , height:'450px'}}/>
                                         <div class="card-body">
                                             <h5 class="card-title">Digital Twin Network Rail </h5>
@@ -69,7 +81,18 @@ function Projects() {
                                         </div>            
                                 </div>
 
-                                <div class="card shadow-lg m-5"  style={{width:"30%" , height:'30%'}}>
+                            </div>     
+                        </div>
+                    </div>
+
+                </div>
+
+                <div className="carousel-item " style={{marginTop:'100px', marginBottom:'150px'}}>    
+                    <div className="container-lg ">
+                        <div className=" d-flex align-items-center justify-content-center " >
+                            <div className=" d-flex  align-items-center justify-content-center ">
+
+                                <div class="card shadow-lg cardWidth m-5"  style={{ height:'30%'}}>
                                     <img src={project4} class="card-img-top" alt="..." style={{width:'100%' , height:'450px'}}/>
                                         <div class="card-body">
                                             <h5 class="card-title">Digital Twin of Virtual Battery Assembly </h5>
@@ -85,11 +108,11 @@ function Projects() {
                 </div>
 
                 <div className="carousel-item " style={{marginTop:'100px', marginBottom:'150px'}}>    
-                    <div className="container  d-flex ">
+                    <div className="container-lg ">
                         <div className=" d-flex align-items-center justify-content-center " >
                             <div className=" d-flex  align-items-center justify-content-center ">
 
-                                <div class="card shadow-lg m-5"  style={{width:"30%" , height:'30%'}}>
+                                <div class="card shadow-lg cardWidth m-5"  style={{ height:'30%'}}>
                                     <img src={project5} class="card-img-top" alt="..." style={{width:'100%' , height:'450px'}}/>
                                         <div class="card-body">
                                             <h5 class="card-title">Air Traffic control / Metaverse</h5>
@@ -98,7 +121,17 @@ function Projects() {
                                         </div>            
                                 </div>
 
-                                <div class="card shadow-lg m-5"  style={{width:"30%" , height:'30%'}}>
+                            </div>     
+                        </div>
+                    </div>
+                </div>
+
+                <div className="carousel-item " style={{marginTop:'100px', marginBottom:'150px'}}>    
+                    <div className="container-lg">
+                        <div className=" d-flex align-items-center justify-content-center " >
+                            <div className=" d-flex  align-items-center justify-content-center ">
+
+                                <div class="card shadow-lg cardWidth m-5"  style={{ height:'30%'}}>
                                     <img src={project6} class="card-img-top" alt="..." style={{width:'100%' , height:'450px'}}/>
                                         <div class="card-body">
                                             <h5 class="card-title">Data Visualization on Mixed Reality  </h5>
@@ -113,11 +146,11 @@ function Projects() {
                 </div>
 
                 <div className="carousel-item " style={{marginTop:'100px', marginBottom:'150px'}}>    
-                    <div className="container  d-flex ">
+                    <div className="container-lg ">
                         <div className=" d-flex align-items-center justify-content-center " >
                             <div className=" d-flex  align-items-center justify-content-center ">
 
-                                <div class="card shadow-lg m-5"  style={{width:"30%" , height:'30%'}}>
+                                <div class="card shadow-lg cardWidth m-5"  style={{ height:'30%'}}>
                                     <img src={project7} class="card-img-top" alt="..." style={{width:'100%' , height:'450px'}}/>
                                         <div class="card-body">
                                             <h5 class="card-title">De-Gen Surgical Experiment </h5>
@@ -126,7 +159,18 @@ function Projects() {
                                         </div>            
                                 </div>
 
-                                <div class="card shadow-lg m-5"  style={{width:"30%" , height:'30%'}}>
+
+                            </div>     
+                        </div>
+                    </div>
+                </div>
+
+                <div className="carousel-item " style={{marginTop:'100px', marginBottom:'150px'}}>    
+                    <div className="container-lg">
+                        <div className=" d-flex align-items-center justify-content-center " >
+                            <div className=" d-flex  align-items-center justify-content-center ">
+
+                                <div class="card shadow-lg cardWidth m-5"  style={{ height:'30%'}}>
                                     <img src={project8} class="card-img-top" alt="..." style={{width:'100%' , height:'450px'}}/>
                                         <div class="card-body">
                                             <h5 class="card-title">Holo-Kart game  </h5>
@@ -141,11 +185,11 @@ function Projects() {
                 </div>
 
                 <div className="carousel-item " style={{marginTop:'100px', marginBottom:'150px'}}>    
-                    <div className="container  d-flex ">
+                    <div className="container-lg ">
                         <div className=" d-flex align-items-center justify-content-center " >
                             <div className=" d-flex  align-items-center justify-content-center ">
 
-                                <div class="card shadow-lg m-5"  style={{width:"30%" , height:'30%'}}>
+                                <div class="card shadow-lg cardWidth m-5"  style={{ height:'30%'}}>
                                     <img src={project9} class="card-img-top" alt="..." style={{width:'100%' , height:'450px'}}/>
                                         <div class="card-body">
                                             <h5 class="card-title">3D Model scanner </h5>
@@ -154,7 +198,16 @@ function Projects() {
                                         </div>            
                                 </div>
 
-                                <div class="card shadow-lg m-5"  style={{width:"30%" , height:'30%'}}>
+                            </div>     
+                        </div>
+                    </div>
+                </div>
+
+                <div className="carousel-item " style={{marginTop:'100px', marginBottom:'150px'}}>    
+                    <div className="container-lg ">
+                        <div className=" d-flex align-items-center justify-content-center " >
+                            <div className=" d-flex  align-items-center justify-content-center ">
+                                <div class="card shadow-lg cardWidth m-5"  style={{ height:'30%'}}>
                                     <img src={project10} class="card-img-top" alt="..." style={{width:'100%' , height:'450px'}}/>
                                         <div class="card-body">
                                             <h5 class="card-title">Translator Application </h5>
