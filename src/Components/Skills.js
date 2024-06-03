@@ -12,11 +12,11 @@ const Skills = () => {
         <h1 className='fw-bold' style={{fontSize:'50px'}}>Skills</h1>
       </div>
 
-      <div className="container pt-5 " style={ {width:'60%'}}>
-        <div className="row  " style={{marginTop:'100px'}}>
+      <div className="container-lg pt-5 " >
+        <div className="row justify-content-center " style={{marginTop:'100px'}}>
 
-          <div className="col me-2">
-            <div class="card shadow-lg " style={{borderRadius:'20px'}}>
+          <div className="col-xl-5 me-2">
+            <div class="card shadow-lg mt-3" style={{borderRadius:'20px' }}>
               <div class="card-body py-5">
                 <h4 className='text-center pb-3' style={{color:'gray'}}>FrontEnd Developer</h4>
 
@@ -110,8 +110,8 @@ const Skills = () => {
             </div>
           </div>
         
-          <div className="col ms-2">
-            <div class="card shadow-lg "  style={{borderRadius:'20px'}}>
+          <div className="col-xl-5 ms-2">
+            <div class="card shadow-lg mt-3"  style={{borderRadius:'20px'}}>
               <div class="card-body py-5">
                 <h4 className='text-center pb-3' style={{color:'gray'}}>AR/VR/MR Developer</h4>
 
@@ -153,7 +153,7 @@ const Skills = () => {
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <h5 style={{whiteSpace:'nowrap'}}>Source Tree</h5>
+                                    <h5 >SourceTree</h5>
                                     <p style={{color:'gray'}}>Intermediate</p>
                                 </div>
                             </div>

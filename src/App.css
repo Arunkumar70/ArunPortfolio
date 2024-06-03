@@ -10,4 +10,14 @@
   }
 
 } */
+.space{
+  margin-inline: 25px;
+}
+
+@media (max-width: 628px){
+  .space{
+    margin-inline: 10px;
+  }
+  
+}
 
