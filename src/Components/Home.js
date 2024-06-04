@@ -19,7 +19,7 @@ function Home({handleScroll}) {
                         <h3 style={{whiteSpace: "nowrap" }}>Arun kumar H S </h3><br/>
                         <h4 style={{whiteSpace: "nowrap", color:'gray' }}>AR/VR/MR and FrontEnd Developer </h4><br/>
                         <div>
-                            <a href='https://drive.google.com/file/d/1tQ1pPAjnKuv41G8VJZHw4Gtz6fLcbVEC/view?usp=sharing' >
+                            <a href='https://drive.google.com/file/d/1XeSZUHaBajqE6oBijN4ez5Z9WuCCzgx8/view?usp=sharing' >
                             <button type="button" className="btn btn-outline-dark rounded-pill" style={{margin:'10px'}}>
                                Download CV</button> </a>
                             <button onClick={()=>handleScroll('Contact')} type="button" className="btn btn-outline-dark rounded-pill" style={{margin:'10px'}}> Contact Me</button>
