@@ -10,6 +10,8 @@ import project7 from '../Image/pj7.png';
 import project8 from '../Image/pj8.png';
 import project9 from '../Image/pj9.png';
 import project10 from '../Image/pj10.png';
+import project11 from '../Image/pj11.png';
+import project12 from '../Image/pj12.png';
 import { FaChevronLeft } from "react-icons/fa";
 import { FaChevronRight } from "react-icons/fa";
 
@@ -26,7 +28,48 @@ function Projects() {
 
         <div id="carouselExample" className="carousel slide">
             <div className="carousel-inner">
-                <div className="carousel-item active" style={{marginTop:'100px', marginBottom:'150px'}}>    
+
+            <div className="carousel-item active" style={{marginTop:'100px', marginBottom:'150px'}}>    
+                    <div className="container-lg   ">
+                        <div className=" d-flex align-items-center justify-content-center " >
+                            <div className=" d-flex  align-items-center justify-content-center ">
+
+                                <div class="card shadow-lg cardWidth "  style={{ height:'30%'}} >
+                                    <img src={project11} class="card-img-top" alt="..." style={{width:'100%' , height:'450px'}}/>
+                                        <div class="card-body">
+                                            <h5 class="card-title">ReactJS Website Development POC</h5>
+                                            <p class="card-text">This website provides detailed of all web series and shows  broadcasted along with the channels they are showing up on.  Website provide schedule, channel list, country wise shows.</p>
+                                            <a href="#" class="btn btn btn-outline-dark rounded-pill">Demo Video</a>
+                                        </div>            
+                                </div>
+
+                            </div>     
+                        </div>
+                    </div>
+
+                </div>
+
+                <div className="carousel-item " style={{marginTop:'100px', marginBottom:'150px'}}>    
+                    <div className="container-lg   ">
+                        <div className=" d-flex align-items-center justify-content-center " >
+                            <div className=" d-flex  align-items-center justify-content-center ">
+
+                                <div class="card shadow-lg cardWidth "  style={{ height:'30%'}} >
+                                    <img src={project12} class="card-img-top" alt="..." style={{width:'100%' , height:'450px'}}/>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Generative AI Advantages with ReactJS Development</h5>
+                                            <p class="card-text">We develop website using ReactJS with the help of Generative AI toolset. This project is to discover advantages of using generative  AI while ReactJS development. We quantify it over various  aspects like Development time, Ease of use, Accuracy and  Usability.</p>
+                                            <a href="#" class="btn btn btn-outline-dark rounded-pill">Demo Video</a>
+                                        </div>            
+                                </div>
+
+                            </div>     
+                        </div>
+                    </div>
+
+                </div>
+
+                <div className="carousel-item " style={{marginTop:'100px', marginBottom:'150px'}}>    
                     <div className="container-lg   ">
                         <div className=" d-flex align-items-center justify-content-center " >
                             <div className=" d-flex  align-items-center justify-content-center ">
