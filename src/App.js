@@ -50,6 +50,10 @@ function App() {
     }
   }
     
+  const handleTopClick = () => {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  }
+
 
 
   const home = useRef();
@@ -83,7 +87,7 @@ function App() {
       </div>
 
       {show && <div className='d-flex justify-content-center' style={{position:'fixed', bottom:'40px', right:'40px', margin:'20px'}}>
-        <BsArrowUpCircleFill style={{width:'50px', height:'50px', color:'gray', cursor:'pointer'}} onClick={()=>handleSrollClick('Home')}/>
+        <BsArrowUpCircleFill style={{width:'50px', height:'50px', color:'gray', cursor:'pointer'}} onClick={handleTopClick}/>
       </div>}
 
   </div>)
