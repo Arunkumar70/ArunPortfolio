@@ -25,8 +25,8 @@ function Home({handleScroll}) {
                             <button onClick={()=>handleScroll('Contact')} type="button" className="btn btn-outline-dark rounded-pill" style={{margin:'10px'}}> Contact Me</button>
                         </div>
                         <div className='d-flex justify-content-center'>
-                            <div className="p-3"><a href="" title="TVmaze Facebook page" ><FaLinkedin style={{width:'190%', height:"190%", color: 'black'}}/></a></div>
-                            <div className="p-3"><a href="" title="TVmaze Facebook page" ><FaGithub  style={{width:'190%', height:"190%" ,color: 'black'}}/></a></div>
+                            <div className="p-3"><a href="http://linkedin.com/in/arun-kumar-h-s-42b92197" target='_blank' rel='noopener' ><FaLinkedin style={{width:'190%', height:"190%", color: 'black'}}/></a></div>
+                            <div className="p-3"><a href="https://github.com/Arunkumar70"  target='_blank' rel='noopener' ><FaGithub  style={{width:'190%', height:"190%" ,color: 'black'}}/></a></div>
                         </div>               
                     </div> 
                 </div>

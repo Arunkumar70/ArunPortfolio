@@ -17,10 +17,14 @@ function ContanctMe({handleScroll}) {
                     <div class="card-body d-flex" >
                         <div className='row'    >
                             <div className='col-md-8 col-sm-12'>
-                            <p className='fs-5 mb-0' style={{whiteSpace:'nowrap'}}> <IoMailSharp />  arun.aaa7@gamil.com</p>
+                            <a href="mailto:arun.aaa7@gmail.com" target='_blank' rel='noopener'  style={{ textDecoration: 'none', color: 'inherit' }}>
+                                <p className='fs-5 mb-0' style={{whiteSpace:'nowrap'}}> <IoMailSharp />  arun.aaa7@gmail.com</p>
+                            </a>
                             </div>
                             <div className='col-md-4 col-sm-12'>
+                            <a href="http://linkedin.com/in/arun-kumar-h-s-42b92197" target='_blank' rel='noopener' style={{ textDecoration: 'none', color: 'inherit' }}>
                             <p className='fs-5 mb-0'>  <IoMailSharp  /> Linkedin</p>
+                            </a>
                             </div>
                         <div/>
 

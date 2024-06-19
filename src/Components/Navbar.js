@@ -7,7 +7,7 @@ function Navbar({handleScroll}) {
   }
   return (
     <div >
-        <nav className="navbar navbar-expand-lg bg-body-tertiary" >
+        <nav className="navbar navbar-expand-lg bg-body-tertiary bk"  style={{position:'fixed' , top:'0', width:'100%',zIndex: "1000" }}>
           <div className="container" >
             <a className="navbar-brand w-75 name" style={{fontStyle: "normal", fontSize:'25px'}}  href="#"> <strong> Arun kumar H S</strong> </a>
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
