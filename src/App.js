@@ -11,17 +11,31 @@ import { BsArrowUpCircleFill } from "react-icons/bs";
 function App() {
 
   const [show, setShow] = useState(false);
+  const [scroll, setScroll] = useState("");
 
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
       // Use the scrollY value as needed
-      console.log(scrollY);
-      if(scrollY > 800){
+      if(scrollY > 600 && scrollY < 1500){
         setShow(true);
+        setScroll("About");
+      }
+      else if(scrollY > 1500 && scrollY < 2500){
+        setShow(true);
+        setScroll("Skills");
+      }
+      else if(scrollY > 2500  && scrollY < 3500){
+        setShow(true);
+        setScroll("Projects");
+      }
+      else if(scrollY > 3500){
+        setShow(true);
+        setScroll("Contact");
       }
       else{
         setShow(false);
+        setScroll("");
       }
     };
 
@@ -50,7 +64,8 @@ function App() {
     }
   }
     
-  const handleTopClick = () => {
+  const handleTopClick = (e) => {
+    e.stopPropagation();
     window.scrollTo({top: 0, behavior: 'smooth'});
   }
 
@@ -64,7 +79,7 @@ function App() {
 
   return (<div  >
     <div>
-      <Navbar handleScroll={handleSrollClick}/>
+      <Navbar handleScroll={handleSrollClick} stateHandle = {scroll} handleTopClick = {handleTopClick}/>
     </div>
       <div ref={home}>
         <Home handleScroll={handleSrollClick}/>
@@ -87,7 +102,7 @@ function App() {
       </div>
 
       {show && <div className='d-flex justify-content-center' style={{position:'fixed', bottom:'40px', right:'40px', margin:'20px'}}>
-        <BsArrowUpCircleFill style={{width:'50px', height:'50px', color:'gray', cursor:'pointer'}} onClick={handleTopClick}/>
+        <BsArrowUpCircleFill style={{width:'50px', height:'50px', color:'gray', cursor:'pointer' ,zIndex:'1000'}} onClick={handleTopClick}/>
       </div>}
 
   </div>)

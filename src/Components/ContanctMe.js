@@ -13,8 +13,8 @@ function ContanctMe({handleScroll}) {
 
         <div className='d-flex justify-content-center mt-5' style={{marginBottom:'300px'}}>
             <div className='d-flex justify-content-center'>
-                <div class="card mx-3" style={{borderRadius:'50px' , borderWidth:'5px' }} >
-                    <div class="card-body d-flex" >
+                <div className="card mx-3" style={{borderRadius:'50px' , borderWidth:'5px' }} >
+                    <div className="card-body d-flex" >
                         <div className='row'    >
                             <div className='col-md-8 col-sm-12'>
                             <a href="mailto:arun.aaa7@gmail.com" target='_blank' rel='noopener'  style={{ textDecoration: 'none', color: 'inherit' }}>

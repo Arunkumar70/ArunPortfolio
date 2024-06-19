@@ -265,12 +265,12 @@ function Projects() {
                 </div>
                 
             </div>
-            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev" >
-                <span className="carousel-control-prev-icon" aria-hidden="true"  ><FaChevronLeft style={{color:"black" , width:'50px' , height:'50px'}}/> </span>
+            <button className="carousel-control-prev z-1" type="button" data-bs-target="#carouselExample" data-bs-slide="prev" >
+                <span className="carousel-control-prev-icon z-1" aria-hidden="true"  ><FaChevronLeft style={{color:"black" , width:'50px' , height:'50px'}}/> </span>
                 <span className="visually-hidden">Previous</span>
             </button>
-            <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span className="carousel-control-next-icon" aria-hidden="true"><FaChevronRight style={{color:"black" , width:'50px' , height:'50px'}}/> </span>
+            <button className="carousel-control-next z-1" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span className="carousel-control-next-icon z-1" aria-hidden="true"><FaChevronRight style={{color:"black" , width:'50px' , height:'50px'}}/> </span>
                 <span className="visually-hidden">Next</span>
             </button>
         </div>
