@@ -64,8 +64,8 @@ function App() {
     }
   }
     
-  const handleTopClick = (e) => {
-    e.stopPropagation();
+  const handleTopClick = () => {
+
     window.scrollTo({top: 0, behavior: 'smooth'});
   }
 
