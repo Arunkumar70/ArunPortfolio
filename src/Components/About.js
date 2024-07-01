@@ -49,7 +49,7 @@ function Adout() {
 
           <div style={{marginTop:'100px' , marginBottom:'200px'}}>
             <p className='fs-5'>
-            I am dynamic and creative AR/VR developer with at least 8 years of experience in gaming and nongaming industry. Hands-on experience on Unity, Vuforia, ARcore, and ARkit to develop cross- platform 3D apps and web development having intermediate experience in React-JavaScript. OOOPs, C# programming, Visual Studio and JavaScript. Worked on version control such as github, Source Code, Plastic SCM and bitbucket. Written blogs and program tutorials for Microsoft mixed reality (Setting up Photon Unity Networking - Mixed Reality | Microsoft Learn) Worked on Hololense 1, 2 for mixed reality and Meta Quest and HTC vive for virtual reality
+            I am dynamic and creative developer with 8 years of experience in all areas of programming, including development, coding, deployment, automation, troubleshooting & testing. 3 years’ experience on full stack tech like REACT JS, Javascript, Java, Web development. 5+ years in app development using Unity, Vuforia, ARcore, and ARkit. Hands on knowledge on OOOPs, C# programming, Visual Studio. Worked on version control such as GitHub, Source Code, Plastic SCM and bitbucket. Excellent in R&D and Tech blogs for program tutorials where I wrote for Microsoft mixed reality (Setting up Photon Unity Networking - Mixed Reality | Microsoft Learn) 
             </p>
           </div>
         </div>
